@@ -93,7 +93,7 @@ it("Return 400 when purchasing a canceller order", async () => {
 // });
 
 // With the real API from Stripe
-it("Return 201 with valid inputs", async () => {
+it.skip("Return 201 with valid inputs", async () => {
   const userId = new mongoose.Types.ObjectId().toHexString();
   const price = Math.floor(Math.random() * 1000000);
   const order = Order.build({
