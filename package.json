@@ -1,0 +1,20 @@
+{
+  "name": "ticketing",
+  "version": "1.0.0",
+  "description": "ticketing for microservices",
+  "main": ".",
+  "scripts": {
+    "start-kub": "skaffold dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitea.gabrielcmoris.com/gcm/microservices-react"
+  },
+  "keywords": [
+    "ticketing",
+    "microservices",
+    "react"
+  ],
+  "author": "gabrielcmoris",
+  "license": "ISC"
+}
