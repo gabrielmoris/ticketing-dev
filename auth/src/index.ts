@@ -3,6 +3,7 @@ import { DatabaseConectionError } from "@gcmlearn/common";
 import { app } from "./app";
 
 const start = async () => {
+  console.log("starting");
   if (!process.env.JWT_KEY || !process.env.MONGO_URI) {
     throw new Error("JWT_KEY and MONGO_URI must be defined");
   }
