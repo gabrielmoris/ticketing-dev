@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      STRIPE_KEY: ${{ secrets.STRIPE_SECRET_FROM_ENV_FILE }}
+      STRIPE_SECRET_FROM_ENV_FILE: ${{ secrets.STRIPE_SECRET_FROM_ENV_FILE }}
     steps:
       - uses: actions/checkout@v2
       - run: cd payments && npm i && npm run test:ci
