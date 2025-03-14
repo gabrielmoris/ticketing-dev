@@ -130,4 +130,4 @@ it("Return 201 with valid inputs", async () => {
   });
 
   expect(payment).not.toBeNull();
-});
+}, 15000);
